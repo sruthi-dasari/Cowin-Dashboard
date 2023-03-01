@@ -31,3 +31,23 @@
   font-weight: 100x;
   font-family: 'Roboto';
 }
+
+.failure-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.failure-img {
+  height: 450px;
+  width: 600px;
+}
+
+.failure-text {
+  color: #ffffff;
+  font-size: 38px;
+  font-weight: 100x;
+  font-family: 'Bree Serif';
+}
