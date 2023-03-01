@@ -1,0 +1,33 @@
+.cowin-dashboard-container {
+  background-color: #161625;
+  /* height: 100vh; */
+  /* display: flex; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 20px;
+}
+
+.website-logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.website-logo {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+}
+
+.website-name {
+  color: #2cc6c6;
+  font-size: 30px;
+  font-weight: 500x;
+  font-family: 'Roboto';
+}
+
+.main-heading {
+  color: #cbd5e1;
+  font-size: 44px;
+  font-weight: 100x;
+  font-family: 'Roboto';
+}
