@@ -33,7 +33,7 @@ class CowinDashboard extends Component {
     if (response.ok === true) {
       const last7DaysVaccinationData = data.last_7_days_vaccination.map(
         eachObject => ({
-          vaccineData: eachObject.vaccine_date,
+          vaccineDate: eachObject.vaccine_date,
           dose1: eachObject.dose_1,
           dose2: eachObject.dose_2,
         }),
@@ -46,7 +46,7 @@ class CowinDashboard extends Component {
 
       const vaccinationByGenderData = data.vaccination_by_gender.map(
         eachObject => ({
-          count: eachObject.vaccine_date,
+          count: eachObject.count,
           gender: eachObject.gender,
         }),
       )
