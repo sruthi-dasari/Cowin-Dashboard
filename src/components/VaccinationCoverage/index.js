@@ -18,8 +18,6 @@ const VaccinationCoverage = props => {
   }
 
   const {data} = props
-  //   console.log(data)
-  //   const {vaccineDate, dose1, dose2} = data
 
   return (
     <div className="vaccination-coverage-container">
